@@ -1,0 +1,21 @@
+Clase 05
+
+un id: es un valor unico
+
+
+Elementos en bloque: La caja saltara a una nueva linea al renderizarse
+
+-las propiedades width y height son respetadas y aplixadas
+-el elemento guardara su ancho.
+
+Etiquetas en bloque:
+
+<p> <div> <hr> <ol> <li> <table> <form> <tr>
+
+content box
+me va a permitir setetar los valores de ancho y alto de la cjaa de contenidos
+
+las propiedades width y height son aplicadas al espacio del contenido. otros elementos del modelo se suman a las medidas
+
+broder box (alternativo)
+son aplicadas hasta que el brode de la caja

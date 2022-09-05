@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!--Formularios-->
+<form action="./index.html" method="get">
+
+<!--inputs-->
+<input type="date">
+<input type="text" placeholder="Dame tu nombre">
+<input type="password">
+<input type="file">
+<input type="range">
+<input type="number">
+</form>
+<hr>
+<!-- Uso de name -->
+<form action="./index.html" method="get">
+<input type="text" name="username">
+<input type="email" name="email">
+<input type="password" name="password">
+
+<input type="text" name="institution" list="institution-list">
+<datalist id="institution-list">
+    <option value="UCA"></option>
+    <option value="UES"></option>
+    <option value="ESEN"></option>
+</datalist>
+</form>
+<hr>
+
+<!-- labels -->
+<form action="./index.html" method="get"> 
+
+    <!-- Nested -->
+    <label>
+        Username
+        <input type="text" name="username" placeholder="e.g. negrosaade">
+    </label>
+    <!-- Using id -->
+    <label for="password-field">Password</label>
+    <input type="password" name="password" id="password-field">
+</form>
+<hr>
+    <!-- Fieldset & Legend -->
+    <form action="./index.html" method="get">
+        <fieldset>
+            <legend>Estas seguro?</legend>
+            <label><input type="radio" name="accept" value="yes">
+            Si Acepto
+            </label>
+            <label><input type="radio" name="accept" value="no">
+             Negativo
+            </label>
+        </fieldset>
+    </form>
+<hr>
+</body>
+</html>

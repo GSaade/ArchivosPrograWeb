@@ -1,0 +1,59 @@
+#lorem-new {
+    width: 100%;
+    max-width: 400px;
+
+    padding: 0.5rem;
+
+    margin: 1rem auto;
+
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+article.new p {
+
+    font-family: monospace;
+    text-align: center;
+
+}
+
+article div.text p {
+
+    font-family: sans-serif;
+    text-align: right;
+}
+
+.underline {
+    text-align: center;
+    padding: 1rem;
+}
+
+.underline::after{
+    content: "";
+
+    display: block;
+    margin: 0.25rem auto;
+    width: 90%;
+
+    border-bottom: 1px dashed #aaa;
+}
+/*
+.underline::after{
+    text-align: center;
+    padding: 1rem;
+}
+
+.underline{
+    content: "";
+
+    display: block;
+    margin: 0.25rem auto;
+    width: 90%;
+
+    border-bottom: 1px dashed #aaa;
+}*/
